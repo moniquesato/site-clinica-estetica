@@ -158,6 +158,14 @@ nav ul li a:hover {
     }
 }
 
+.footer {
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+    padding: 28px 0;
+    text-align: center;
+    font-size: 13px;
+    color: #444;
+}
 
 
 
