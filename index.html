@@ -9,10 +9,13 @@
 </head>
 
 <body>
+
+    <!-- Cabeçalho -->
     <header>
         <div class="container">
             <h1>Clínica Vida & Estética</h1>
-            <nav>
+
+            <nav aria-label="Navegação principal">
                 <ul>
                     <li><a href="#">Início</a></li>
                     <li><a href="#">Sobre</a></li>
@@ -23,19 +26,24 @@
         </div>
     </header>
 
+    <!-- Conteúdo principal -->
     <main>
 
-        <!-- Seção principal de destaque -->
-        <section class="hero">
+        <!-- Seção Hero -->
+        <section class="hero" aria-labelledby="titulo-hero">
             <div class="container">
-                <h2>Cuidando da sua saúde e bem-estar</h2>
+                <h2 id="titulo-hero">Cuidando da sua saúde e bem-estar</h2>
                 <p>Tratamentos estéticos com profissionais qualificados.</p>
             </div>
         </section>
 
-        <section class="sobre">
+        <!-- Sobre -->
+        <section class="sobre" aria-labelledby="titulo-sobre">
             <div class="container">
-                <h2>Sobre a Clínica</h2>
+                <header>
+                    <h2 id="titulo-sobre">Sobre a Clínica</h2>
+                </header>
+
                 <p>
                     A Clínica Vida & Estética oferece tratamentos personalizados,
                     focados no bem-estar e na saúde de seus pacientes.
@@ -43,47 +51,54 @@
             </div>
         </section>
 
-        <!-- Seção de serviços organizada em cards reutilizáveis -->
-        <section class="servicos">
+        <!-- Serviços -->
+        <section class="servicos" aria-labelledby="titulo-servicos">
             <div class="container">
-                <h2>Nossos Serviços</h2>
+                <header>
+                    <h2 id="titulo-servicos">Nossos Serviços</h2>
+                </header>
 
                 <div class="cards">
-                    <div class="card">
+                    <article class="card">
                         <h3>Limpeza de Pele</h3>
                         <p>Tratamento facial para revitalização da pele.</p>
-                    </div>
+                    </article>
 
-                    <div class="card">
+                    <article class="card">
                         <h3>Drenagem Linfática</h3>
                         <p>Auxilia na redução de inchaço e melhora da circulação.</p>
-                    </div>
+                    </article>
 
-                    <div class="card">
+                    <article class="card">
                         <h3>Massagem Terapêutica</h3>
                         <p>Relaxamento e alívio das tensões do dia a dia.</p>
-                    </div>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <section class="contato">
+        <!-- Contato -->
+        <section class="contato" aria-labelledby="titulo-contato">
             <div class="container">
-                <h2>Contato</h2>
-                <p>Telefone: (11) 99999-9999</p>
-                <p>Endereço: Rua Exemplo, 123 – São Paulo</p>
+                <header>
+                    <h2 id="titulo-contato">Contato</h2>
+                </header>
+
+                <address>
+                    <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+                    <p>Endereço: Rua Exemplo, 123 – São Paulo</p>
+                </address>
             </div>
         </section>
 
     </main>
 
-
+    <!-- Rodapé -->
     <footer class="footer">
         <div class="container">
             <p>© 2026 Clínica Vida & Estética. Todos os direitos reservados.</p>
         </div>
     </footer>
-
 
 </body>
 
